@@ -45,3 +45,6 @@ data/processed
 
 #output/ 
 output/
+
+#PyCharm config files
+/.idea/
