@@ -1,0 +1,7 @@
+filename,url,header
+page0.py,index,Workstream 2: Statistical Methods
+problem_definition.py,problem_definition,Problem Definition
+eda.py,eda_cda,Exploratory or Confirmatory Data Analysis
+bias.py,population_bias,Population and Bias
+dimensions.py,dimensionality,Dimensionality Reduction
+conclusions.py,and_finally,And Finally...
