@@ -34,5 +34,5 @@ layout = html.Div([
         dbc.Tab(tab_dimension, label="Dimensionality Reduction"),
         dbc.Tab(tab_bias, label="Population and Bias")
     ]),
-    dcc.Link('Next page', href='/dimensionality')
+    dcc.Link('Next page', href='/eda_cda')
 ])
