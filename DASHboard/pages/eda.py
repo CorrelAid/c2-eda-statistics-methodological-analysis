@@ -1,17 +1,11 @@
 from dash import dcc, html, Input, Output, callback
 
 layout = html.Div([
-    dcc.Dropdown(
-        {f'Page 2 - {i}': f'{i}' for i in ['London', 'Berlin', 'Paris']},
-        id='page-2-dropdown'
-    ),
-    html.Div(id='page-2-display-value'),
-    dcc.Link('Go to Page 1', href='/page1')
+    html.Br(),
+    html.H2("Why make a distinction?"),
+    html.Img(src="assets/spurious.jpeg", width="100%"),
+    dcc.Link("From spurious correlations", href="http://www.tylervigen.com/spurious-correlations"),
+    html.Br(),
+    html.Br(),
+    dcc.Link('Next page', href='/dimensionality')
 ])
-
-
-@callback(
-    Output('page-2-display-value', 'children'),
-    Input('page-2-dropdown', 'value'))
-def display_value(value):
-    return f'You have selected {value}'
