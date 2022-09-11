@@ -3,5 +3,7 @@ page0.py,index,Workstream 2: Statistical Methods
 problem_definition.py,problem_definition,Problem Definition
 eda.py,eda_cda,Exploratory or Confirmatory Data Analysis
 dimensions.py,dimensionality,Dimensionality Reduction
-bias.py,population_bias,Population and Bias
+bias.py,population_bias,Population and Bias (i)
+bias2.py,population_bias2,Population and Bias (ii)
+bias3.py,population_bias3,Population and Bias (iii)
 conclusions.py,and_finally,And Finally...
