@@ -5,7 +5,7 @@ layout = html.Div([
     html.H2("Next Steps"),
     html.H2("Presentation Template Questions"),
     dbc.Tabs([
-        dbc.Tab(html.P("Already done."),
+        dbc.Tab(html.P("Already done in this presentation."),
                 label="Show and Tell"),
         dbc.Tab(html.P("Mainly in a Google Drive doc, but also here and in the repo readme."),
                 label="Where Documented?"),
@@ -16,9 +16,9 @@ layout = html.Div([
                 label="Limitations"),
         dbc.Tab(html.P("Transformations of the data set to allow testing out our ideas."),
                 label="To fix"),
-        dbc.Tab(html.P("Further discussion with CfE about survey, i.e research, goals would be beneficial."),
+        dbc.Tab(html.P("Further discussion with CfE about survey, e.g. research goals would be beneficial."),
                 label="To improve"),
-        dbc.Tab(html.P("Cross-fertilisation of ideas in our group discussion, remote data access, "
+        dbc.Tab(html.P("Cross-fertilisation of ideas in our group discussion, remote data access and "
                        "data wrangling as a blocker for time critical activities."),
                 label="Learnings")
     ]),
