@@ -1,8 +1,38 @@
-Track [X] Challenge [Y]
+# Track 1b: ETL/EDA: EDA 
+
+# Challenge #2: Statistics: Methodological Analysis
+
 ================
 
+# Introduction
+
+## Problem Statement
+
+This challenge concerns investigating the statistical methods that would be appropriate for use by CfE when analysing their surveys.
+
+## Initial Questions
+
+The hackathon team decided to make this open question more concrete by initially looking at three difference questions.
+* Exploratory Data Analysis vs Confirmatory Data Analysis
+* Population and Bias
+* Dimensionality Reduction
+
+## Repo Navigation
+
+As the codebase on this repo develops, a guide to where to find things can be added here where necessary.
+
+## Other Resources
+
+For this challenge, a number of resources were made available and used. 
+For further development work, it would be worth checking in with the project sponsor to get access to the following.
+* Shared folder on Google Drive
+* Dedicated Slack channel on the CorrelAid workspace
+* Notion pages with details of this channel
+* Access keys to sample data
 
 # Setup
+
+This section contains generic access information that was provided to all challenges as part of the hackathon.
 
 ## Dependencies
 
