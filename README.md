@@ -23,6 +23,16 @@ As the codebase on this repo develops, a guide to where to find things can be ad
 * DASHboard. This folder contains the code for running a presentation made in Dash. 
 The relevant Python packages for this are saved in a requirements file as usual.
 
+### Running the Dashboard
+
+For the final presentation at the hackathon we made a dashboard using [Dash](https://dash.plotly.com/).
+Like most of these technologies, it basically makes a website for you.
+For R fans, you can think of it as the Shiny for Python; although Dash also supports R these days.
+To run the dashboard you need to do the following, assuming you have Python 3 installed of course.
+* Install the required packages: 'pip install -r requirements.txt'
+* Run the app.py script in the DASHboard folder.
+* Open your web browser to localhost; it is easiest to just click the link that appears on the console.
+
 ## Other Resources
 
 For this challenge, a number of resources were made available and used. 
